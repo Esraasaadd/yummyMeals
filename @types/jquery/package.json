@@ -125,6 +125,7 @@
     },
     "scripts": {},
     "dependencies": {
+        "@types/jquery": "file:",
         "@types/sizzle": "*"
     },
     "typesPublisherContentHash": "9f788e87c9a414e61c159cc18d7f06aa9d6fffa10bda4e9b5784798949e9eb25",

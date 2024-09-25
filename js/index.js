@@ -295,8 +295,8 @@ document.getElementById("area").addEventListener("click",async function(){
         let areas =data.meals
         let container="";
         for (let i = 0; i < areas.length; i++) {
-            container+=`<div class="col-md-3 areaBox text-white text-center" id="${areas[i].strArea}">
-            <div><i class="fa-solid fa-house-laptop fa-4x"></i></div>
+            container+=`<div class="col-md-3 areaBox text-center" id="${areas[i].strArea}">
+            <div><i class="fa-solid fa-house-laptop fa-4x text-danger mb-3"></i></div>
             <h3>${areas[i].strArea}</h3>
     </div>`
         }
@@ -339,8 +339,8 @@ document.getElementById("ingredients").addEventListener("click",async function()
     const ingredients=data.meals
     let container=''
     for (let i = 0; i <25; i++) {
-        container+=`<div class="col-md-3 myIngredient text-white text-center" id="${ingredients[i].strIngredient}">
-                                <div><i class="fa-solid fa-drumstick-bite fa-4x"></i></div>
+        container+=`<div class="col-md-3 myIngredient text-center" id="${ingredients[i].strIngredient}">
+                                <div><i class="fa-solid fa-drumstick-bite fa-4x text-danger"></i></div>
                                 <h3>${ingredients[i].strIngredient}</h3>
                                 <p>${ingredients[i].strDescription.split(" ").slice(0,20).join(" ")}</p>
                         </div>`

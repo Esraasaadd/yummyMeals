@@ -1,5 +1,5 @@
 body{
-background-image: url(../img/wp2665743.jpg);
+    background-color: #0d0d0d;
 }
 img{
     background-size: cover;
@@ -19,7 +19,7 @@ ul{
 }
 .nav-taps{
     width: 250px;
-    background-color: #0d0d0d;
+    background-color: #0d0d0d ;
 }
 
 .logo{
@@ -67,7 +67,10 @@ li,i{
 }
 @media (min-width: 681px) {
     .nav-header {
-        background-color: white !important;
+        background-color: rgba(15, 14, 14, 0.5);
+    }
+    #menu{
+        color: white !important;
     }
 }
 

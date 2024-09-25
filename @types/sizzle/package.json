@@ -18,7 +18,9 @@
         "directory": "types/sizzle"
     },
     "scripts": {},
-    "dependencies": {},
+    "dependencies": {
+        "@types/sizzle": "file:"
+    },
     "typesPublisherContentHash": "5a1ded78c310b52ad24992cf9fc8105049492a7c2b610dd99eca2030a0462045",
     "typeScriptVersion": "3.5"
 }
